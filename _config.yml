@@ -1,0 +1,10 @@
+title: "Rowan Huang"
+description:"My personal site"
+remote_theme: Forthoney/consolo
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown:kramdown
