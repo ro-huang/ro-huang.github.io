@@ -1,0 +1,20 @@
+/* _sass/_beige.scss */
+
+/* If the theme’s other schemes define variables like $background-color,
+   copy their structure and override the relevant ones here. */
+
+/* Option A: set the page background directly */
+body {
+  background: #f5efdf; /* light beige */
+}
+
+/* Remove underline under the site title */
+.site-title a,
+a.site-title {
+  text-decoration: none;
+}
+
+.site-title a:hover,
+a.site-title:hover {
+  text-decoration: none;
+}

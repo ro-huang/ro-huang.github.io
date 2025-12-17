@@ -6,7 +6,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-style: light
+style: beige
+
 header_pages:
   - about.md
   - writing.md
