@@ -1,11 +1,65 @@
+/* Custom beige and brown color scheme */
+html {
+  --primary-color: #3e2723 !important;
+  --background-color: #f5e6d3 !important;
+  --text-color: #3e2723 !important;
+}
+
 :root {
   --primary-color: #3e2723 !important;
   --background-color: #f5e6d3 !important;
+  --text-color: #3e2723 !important;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  html, :root {
     --primary-color: #3e2723 !important;
     --background-color: #f5e6d3 !important;
+    --text-color: #3e2723 !important;
   }
+}
+
+/* Ensure colors are applied to body and all elements */
+body {
+  background-color: #f5e6d3 !important;
+  color: #3e2723 !important;
+}
+
+/* Remove underline from site title */
+header h1 a {
+  text-decoration: none !important;
+}
+
+/* Align footer to the right */
+footer {
+  display: block !important;
+  text-align: right !important;
+}
+
+footer p {
+  text-align: right !important;
+  margin: 1em 0 !important;
+}
+
+/* Table styling with borders */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+table th,
+table td {
+  border: 1px solid #3e2723;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #e8d4ba;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #faf3e8;
 }

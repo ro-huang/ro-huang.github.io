@@ -1,11 +1,14 @@
 title: Rowan Huang
 remote_theme: Forthoney/consolo
 
+author:
+  github_username: ro-huang
+  google_scholar: https://scholar.google.com/citations?user=APehF9QAAAAJ&hl=en
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
 header_pages:
-  - about.md
+  - index.md
   - writing.md

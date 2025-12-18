@@ -1,0 +1,95 @@
+---
+layout: post
+title: "Please Wait To Be Seated"
+author: "Rowan Huang"
+date: 2023-11-12
+category: creative
+---
+
+“Happy anniversary!” The hostess exclaimed, glancing up from her tablet.
+
+I glanced at Kaivu, and our eyes sifted through the same emotions: confusion, understanding, amusement.
+
+“How many years has it been?” she asked, leading us through the dimly lit restaurant. I was busy navigating through the tables. My hip nearly whisked a balding man’s fork off his plate. The hostess was unperturbed by the clutter, drifting leaf-like through the bustle. Watching her execute a particularly difficult maneuver — a rapid one-two step around a waiter holding a pot of soup, all the while maintaining a constant forward velocity — I felt as if I had unwittingly wandered onto the stage of an ongoing dance recital.
+
+Kaivu elbowed me and I made a game-time decision to round down. “Five years,” I answered. My voice was thick with excitement and deceit.
+
+“Wow!” She appraised us for a second. Kaivu was in sweatpants and my t-shirt had a distinct oil stain. “Well, have a great meal. I’ll leave you to it.”
+
+We settled into our spots, actors well-rehearsed for this play: me on the bench, Kaivu on the chair. I remembered a joke my friend always made when we settled in an opposite configuration, one that would only make sense to a crowd of queers: There are only two kinds of people in a relationship. The one on the bench, and the one on the chair.
+
+With a chagrined smile, Kaivu took my hand and chirped, “Happy anniversary!”
+
+“Happy anniversary!” I responded, and we giggled, like we do every time.
+
+On Resy, OpenTable, and Tock, there’s an option to mark an occasion for the dinner. Our default is “Anniversary”,  a scheme to get a complimentary cake slice that only works around 5% of the time. Though, the randomness only elevates the thrill, the transformation of a casual date night into an anniversary. Our greatest success was on July 4th at a seafood restaurant situated above a 5-star hotel that overlooked D.C. The server was around our age, dressed crisply in a tuxedo. His clumsiness reminded me of my mom in the rare instances she hosted parties. He hovered only a few feet away, at the peripheries of our vision, looking tempted to check in for the fifth time. He kept on asking if we wanted drinks[1]. Every time he visited the table, he fussed with the set-up, shuffling the plates into arrangements that neither improved nor detracted from mealtime practicality. Kaivu and I found ourselves swiftly oscillating between being charmed and irritated by his antics.
+
+When the food finally arrived, we were sorely disappointed. I grumbled incessantly about the $40 fish dish: the restaurant’s opulence — the towering windows, the heavy tablecloth, the marbled entrance — didn’t match the thin flavors each bite proffered. But at the end of our meal, our dear waiter walked over (nearly tripping over a tuft in the carpet) with an elegant cake slice. On the top was a white chocolate piece with Happy Anniversary in cursive. We fawned over the craftmanship, thrilled at the yonic edible flower decorations that fine dining restaurants love so much. The free dessert assuaged our displeasure with the main course and we walked out with child-like giddiness. When I think back to that restaurant, I see that tuxedoed waiter, barely not-a-boy, presenting us with a symbolic slice of our relationship’s success.
+
+This is all to say that the idea of someone unfamiliar catering to our celebration (albeit a fake one) is ravishing. It’s so American. We certainly did not get the same treatment in Chinese restaurants, where waiters always seemed faintly irritated that we were in the restaurant at all. Kaivu believed if I ordered in my (clumsy) Mandarin, we might get better service.
+
+“It’s humiliating to hear myself be wrong,” I would insist.
+
+“But when my other friends order in Chinese,” he’d refute, “the food is fresher and faster.”
+
+The truth is, in Chinese restaurants, I felt a cavernous need for approval from the waiters. Their offhanded impatience stoked the flames of my childhood insecurities. The stained wife-beaters they wore were the same as the ones my dad bought from Costco.
+
+I derive great anxiety from putting in an order, but even greater anxiety from watching Kaivu order. In the rare instances he does, I make him rehearse at least 3 times; still, he always forgets the appetizer, speaks too quietly for the waiter to hear, and issues at least 45 seconds of “ummm” [2]. It was just in Chinese restaurants that I forced a deviation from our pre-assigned roles, telling Kaivu to order our food. I hoped to delay the dramatic moment of betrayal when I spoke English. No Chinese, I figured, is better than broken Chinese. The waiters would feel no obligation to me. Our ties would be severed by my polite, English “excuse me”. 
+
+ But the first time I ceded to his demands (recording the phonetic pronunciation of every food name in the Notes app), I was surprised at the waitress’ sudden openness, the light that flooded into her eyes. Her speech became fluid, each word now tinged with the natural up and down of emotion. When I ordered their most popular dish — “Chef Tony’s special” — she conspiratorially warned me against it, instructing us to get the hot pot instead. We goaded Kaivu into saying the few Chinese phrases he knew[3], giggling at his mistakes. She spotted a sauce stain on my white sweater and joked about the pitfalls of wearing nice clothes while eating Sichuan food. Kaivu sat back and watched us volley conversation, smiling in self-satisfaction. The food was, indeed, both fresher and faster.
+
+。 。 。
+
+I was born in a household that taught me to serve, and never taught me to be served[4]. For as long as I can remember, my dad instructed us to thank the waiter for each and every interaction. The first time he imparted this advice, he demonstrated by effusively expressing his appreciation to the high-schooler refilling our water glasses. When I was with my family, meals were filled with a methodical chime: thank you, thank you, thank you.
+
+Once, desperate for Beijing Roasted Duck, a classic but difficult-to-find Chinese dish, my family took a 40-minute detour to a restaurant in a small nook of Virginia. We were greeted by the chef taking a smoke break outside. The tables were empty except for one white family in the corner. After we seated ourselves (my mom glancing a few times at the door, charting our escape route), our waiter manifested from behind the curtain. Now, here was a man who paralleled our familial neuroticism. When my dad asked what he recommended, he coughed and with feigned hesitation told us it was all 老美 food.
+
+My brother looked at me with confusion, and I translated in a horrified whisper, “he’s saying that it’s Americanized Chinese food”.
+
+My dad, undaunted, asked whether they specialized in Northern or Southern food. But the waiter insisted again and again, it’s all for Americans, we have no specialization. My mom’s cheeks bubbled red with irritation. But she could tell we were hungry, and, after giving the door one last loving glance, she ordered our Beijing Roasted Duck. When the waiter returned with the food, he lingered. While my brother and I shoveled the duck into the wrapping (it tasted like every other Beijing Roasted Duck I’ve had), the waiter began regaling my dad about how he was forced to take on this job for little pay[5].
+
+“My uncle came to America to start the restaurant, so I joined him,” he droned, “but after another family took over, they’ve taken away all of my benefits. I don’t even have any health insurance.”
+
+My dad nodded politely as the waiter began talking about the dearth of Asian people in the town. In the corner of my eye, I saw the white family impatiently waving for the check. My mom, also feeling impatient, pointed them out to the waiter.
+
+As he was leaving the table, he apologized for his improper Mandarin. My dad brushed it off, telling him that he couldn’t even notice. He was lying. Even I had noticed that the waiter’s Chinese sounded different from my parents’. My dad would tell me later in the car that the waiter was from southern China, somewhere in the Guangdong Province[6].
+
+In his next few stops by the table, the waiter was sullen. Our conversation would dim each time he stepped out from the curtain, and the humming silence began ruining my appetite. My family — even my brother — would stiffen at his return, each orienting ourselves to help him conveniently place down the plates. Every time we thanked him, we were met by a counter chime: 不谢, 不谢, 不谢, he’d say quietly, firmly. A direct translation: don’t thank, don’t thank, don’t thank.
+
+。 。 。
+
+On our actual 5-year anniversary, Kaivu and I took a trip to Chicago, our first voyage to a city with a Michelin Guide. Months before, we had pored over the Guide’s website and Eater’s “The 38 Essential Restaurants in Chicago,” debating what was worth it. At one point, Kaivu got distracted by Alinea’s $495 per person meal.
+
+“If you utter a single ‘what if’ to me, I will slap you,” I threatened him after glancing at his screen.
+
+To Kaivu’s disappointment, my GMA (generalized money anxiety)[7] resulted in us visiting only one Michelin-starred restaurant: Kasama.
+
+When we arrived, the line stretched around the block. Having read the review beforehand, I expected the wait, but I did not expect the heat. Each minute grew more intense. I felt a deep, animalistic need to run. Kaivu consoled me as my complaints about the restaurant’s organization turned into senseless muttering.
+
+“Any system would work better than this,” I argued to no one in particular, “It’s the 21st century. What kind of restaurant doesn’t take reservations.”
+
+By the end of the hour and 45 minutes, we had memorized the menu. Our backs stuck to the seats. When the waiter arrived at our table, asking for what drinks we wanted, we quickly outpoured our whole order. We’ve always been hungry people[8],  but this was different. Our conversation, usually buoyant and quick, lulled once the food arrived. In intense focus, we began the division — I cut, Kaivu chooses — making sure the other didn’t claim more than their share. The truffle croissant littered dandruff flakes and oozed its viscous center. The pork belly coated our lips with translucent residue. Rice scattered across the table in a small snowfall.
+
+Twenty minutes later, we awakened from our haze, licking the sauce off our fingers and hoovering up the crumbs from the edges of our plates. We grew conscious of our surroundings, and I realized with shock that Genie Kwon, the chef, was at the end of the restaurant. I nudged Kaivu and he whipped his head around to watch the woman operate in her natural habitat. She was checking in at each table, moving her way down. She offered each patron a warm lapping of care, like an animal’s cleaning tongue. The restaurant was closing to prepare for dinner, but she took her time. The couple next to us addressed her by her first name and shared the story of their first meeting at Kasama.
+
+When she arrived at our table, she began refilling our water glasses and smiled at our mess. I remembered a comment I saw on a Google review of a restaurant a few years ago — you know it’s a good restaurant by how often they fill your glass. In unison, we expressed oggjur delight with the food, and she laughed at our stomachs’ satisfied grumbles. It was strangely disarming, to see her in beat-up sneakers and a smudged apron, clutching the water pitcher. She took a rag out of her back pocket and began wiping off our table. Her strokes were slow. I watched the back of her hand as she pressed into the wood.
+
+I thanked her quietly.
+
+\-\-\-
+
+[1] I once asked a friend who had previously worked as a waitress whether it was annoying when couples don’t order the $15 cocktails or pick the cheapest entrees. She told me not to worry about it, but I don’t think she ever directly answered my question.
+
+[2] Though he’s normally more outgoing than I am, his gentle side comes out around waiters. Kaivu grew up watching his father — a tall, charismatic businessman who initially opposed our relationship — bargain in a Nike store for cheaper sneakers (he got a 20% discount) and tell the United check-in staff to delay a flight’s departure (they held the plane). I think he just never learned to advocate for himself in restaurants. But, most of the time, I appreciate his passivity. Once, when a waiter placed the check directly in front of Kaivu, I made a show of sliding it to my end of the table and placing down my credit card.
+
+[3] 白饭 (white rice)，对不起 (sorry)，and 我喜欢西瓜 (I like watermelon)
+
+[4] One of my strongest childhood memories was going to a friend’s house, where her mom asked me whether I wanted a cup of water. My tongue was sticky with thirst, but I was taught to refuse offers at least twice. I told her I didn’t want anything, proud of my show of manners. When she shrugged and left the room, I was aghast.
+
+[5] My parents, too, are immigrants from China. My mother’s parents were poor. Truly, poor. My mother often boils eggs so that the yolk would be green on the inside, which I’ve always hated. Whenever I refused to eat the yolk, she would tell me about the delight of New Year’s Day, the only day her family would splurge for eggs. (Though I’ll eat her eggs now, I’ve never managed to curate “delight” while consuming green yolk.) Growing up in the city, my dad was better off, though he did get beat once by his father for losing $5. Both of them had transcended their birth-stations — my mother from her gravel-paved village, my father from the small 2-bedroom apartment he called his childhood home — to go to Tsinghua University, then to Hong Kong, then to America. In other words, they made it. I often wonder what they were thinking during this conversation.
+
+[6] In China, the standardized language of communication is Mandarin, or 普通话; it is the language used by newscasters, educators, and businessmen. However, Cantonese is the primary mode of communication in some areas of Southern China. My parents are both from the north: my mother is from Shanxi and my dad is from Beijing.
+
+[7] Kaivu and I both have multiple part-time research jobs, meaning that we both have some income despite being college students. But while he’s fine occasionally splurging, each money-associated thought leaves me feeling slightly diuretic. When I was in 1st grade, I harvested the snails from our infested fish tank, placed them in the containers my dentist gave me to store my first teeth, and brought them into school to sell for $0.25 a snail. Across the week, I made over $10 in quarters. But, confident that my parents would be upset that I was making money, I threw the coins out in the trash, layering them in toilet paper so that they wouldn’t make any jingling sound.
+
+[8]Kaivu sometimes jokes weakly about how in high school, growing into his 6’2 frame, he would make the rounds in the cafeteria soliciting his female friends’ leftovers, unaware that he was promoting their eating disorders.

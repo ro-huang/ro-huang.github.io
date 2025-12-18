@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MMLU-Pro Isn't Multidimensional (It Just Pretends to Be)</title>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css"><!-- Custom color scheme -->
+  <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
+</head>
+<body><header>
+  <h1><a href="/">Rowan Huang</a></h1>
+  <nav>
+    <ul class="unstyled-list"><li><a href="/">/about</a></li><li><a href="/writing">/writing</a></li></ul>
+  </nav>
+</header>
+<main class="page-content" aria-label="content">
+      <h1 id="mmlu-pro-isnt-multidimensional-it-just-pretends-to-be">MMLU-Pro Isn’t Multidimensional (It Just Pretends to Be)</h1>
+
+<p>In this blog post, I do an open-ended exporation of the dimensionality of model capabilities captured in MMLU-Pro, and consider whether asking questions across domains might improve our understanding of model abilities. Using item response theory to analyze model performance, I find that</p>
+<ol>
+  <li>MMLU-Pro tests a single-dimensional ability, despite asking questions across a range of domains.</li>
+  <li>Questions from fields that are an even mixture of both qualitative and quanitative domains appear to be more difficult, but questions that are more quanitative tend to be the most discriminating.</li>
+</ol>
+
+<p>I speculate about what this implies for the role of these kinds of evals in our model understanding and forecasting tool kits.</p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>Benchmarks have many uses. In my opinion, the purest of these is to measure progress towards AGI. 
+For this use case, we often think the breadth of a benchmark makes it better. We build models that test across X many domains and take comfort in the idea that covering many fields gives us a richer picture of intelligence: this model is great at X1, X2, <em>and</em> X3, so it must be getting more capable in some fairly general sense way.</p>
+
+<p>But that hypothesis only holds if the benchmark’s domains are actually measuring meaningfully different things.</p>
+
+<p>A multi-domain benchmark can be broad in what it covers while being narrow in what it reveals. If performance is mainly driven by how good a model is at test-taking or memorization, then adding more domains doesn’t necessarily buy us a more articulated map of capabilities: it may simply average out noise around one dominant dimension.</p>
+
+<p>On the other hand, if domains really do correspond to multiple capabilities, then our habit of collapsing eval scores into one metric is hard to justify. We would have to monitor how the capability <em>profile</em> is evolving over time.</p>
+
+<p>Yet today it’s often unclear what we should even expect to see in either case, because we rarely make the underlying hypothesis explicit. Instead of treating “multi-domain” as automatically meaningful, I want to treat it as a claim about the structure of model intelligence—one that we can test, and one that should shape how benchmarks are built and reported. In this short post, I find evidence that the former is the case for MMLU-pro, a widely used and cited question answering benchmark.</p>
+
+<h2 id="experimental-setup">Experimental setup</h2>
+<p>I use publically available <a href="https://github.com/TIGER-AI-Lab/MMLU-Pro">MMLU-Pro data</a>. This data evaluates 47 models across 12,032 questions. A benefit of using this benchmark over other is that MMLU-Pro classifies its questions into 14 domains: math, physics, computer science, engineering, chemistry, economics, biology, health, psychology, business, law, history, philosophy, and other.</p>
+
+<p>To begin poking at these issues empirically, I use <a href="https://en.wikipedia.org/wiki/Item_response_theory">Item Response Theory</a>. Unlike analyses applying Classical Test Theory  where the total score is the main object and items are treated as mostly interchangeable, Item Response Theory models the probability of a correct answer as a function of both a model’s latent ability and each question’s latent properties. Using IRT, I’m able to see which items actually separate models and look at the dimensionality of model ability.</p>
+
+<h3 id="limitations">Limitations</h3>
+
+<p>The public data on MMLU-Pro is only evaluated on smaller models, and that even among these smaller models the benchmark is mostly saturated. This seriously limits my ability to extend ths conclusions of this analysis to larger models. I propose readers think of this more as a motivational exercise that can be applied to more state of the art benchmarks.</p>
+
+<h2 id="results">Results</h2>
+
+<h3 id="dimensionality">Dimensionality</h3>
+
+<p>I use multidimensional item response theory (IRT) to jointly model subject-level performance and item characteristics across (D) latent dimensions. For each choice of dimensionality (D), the model defines:</p>
+
+<ul>
+  <li>
+    <p><strong>Subject (ability) parameters</strong>: for each subject $s$, a vector of abilities $\boldsymbol{\theta}_s \in \mathbb{R}^D$.</p>
+  </li>
+  <li>
+    <p><strong>Item parameters</strong>: for each item $i$, a vector of discrimination parameters $\mathbf{a}_i \in \mathbb{R}^D$, and a scalar difficulty parameter $b_i \in \mathbb{R}$.</p>
+  </li>
+</ul>
+
+<p>I observe whether subject $s$ answers item $i$ correctly as a binary variable $y_{si} \in {0,1}$, and model it as:</p>
+
+\[y_{si} \sim \text{Bernoulli}(p_{si})\]
+
+<p>where $p_{si}$ is the probability of a correct response.</p>
+
+<p>In the multidimensional 2-parameter logistic (2PL) model, this probability is linked to the latent abilities and item parameters via:</p>
+
+\[p_{si} = \sigma\big(\mathbf{a}_i^\top \boldsymbol{\theta}_s - b_i\big)\]
+
+<p>where $\sigma(x) = \frac{1}{1 + e^{-x}}$ is the logistic function.</p>
+
+<p>Given estimates of $\boldsymbol{\theta}_s$, $\mathbf{a}_i$, and $b_i$, I can compute the predicted probability that each subject answers each item correctly and compare these predictions to the observed outcomes. I fit models with different values of $D$ and compare their fit (e.g., using likelihood-based criteria or held-out performance) to identify the dimensionality that best captures the data.</p>
+
+<p>In the following table, I find some suggestive evidence that MMLU-Pro might be one-or two dimensional depending on whether we look at AIC or BIC.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dims</th>
+      <th>Log Like.</th>
+      <th>Param. Ct.</th>
+      <th>Obs. Ct.</th>
+      <th>AIC</th>
+      <th>BIC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1D</td>
+      <td>-327446.22</td>
+      <td>24561</td>
+      <td>565033</td>
+      <td>704014.44</td>
+      <td>980194.02</td>
+    </tr>
+    <tr>
+      <td>2D</td>
+      <td>-236819.97</td>
+      <td>49122</td>
+      <td>565033</td>
+      <td>571883.94</td>
+      <td>1124243.12</td>
+    </tr>
+    <tr>
+      <td>3D</td>
+      <td>-220614.37</td>
+      <td>73683</td>
+      <td>565033</td>
+      <td>588594.75</td>
+      <td>1417133.52</td>
+    </tr>
+    <tr>
+      <td>4D</td>
+      <td>-249462.71</td>
+      <td>98244</td>
+      <td>565033</td>
+      <td>695413.41</td>
+      <td>1800131.77</td>
+    </tr>
+    <tr>
+      <td>5D</td>
+      <td>-215016.80</td>
+      <td>122805</td>
+      <td>565033</td>
+      <td>675643.60</td>
+      <td>2056541.54</td>
+    </tr>
+    <tr>
+      <td>6D</td>
+      <td>-243958.27</td>
+      <td>147366</td>
+      <td>565033</td>
+      <td>782648.54</td>
+      <td>2439726.07</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>However, in the visual comparison of a model fit on one vs. two dimensions, I find that the second dimension is from overfitting on the Llama outlier.</p>
+
+<p><img src="/assets/images/mirt_2d_scatter.png" width="600" /></p>
+
+<h3 id="domain-differentiation">Domain Differentiation</h3>
+
+<p>Given that MMLU’s domains are likely only testing one latent ability, it’d be useful to see which questions are more or less effective at such kind of testing.</p>
+
+<p>To do so, I can perform exploratory data analysis on the difficulty ($a$) and discrimination ($b$) parameters I derived. To better compare domains, I choose loosely categorize the domains by how quantitative (in purple) and qualitative (in yellow) they are <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>First, let’s look at the difficulty dimension.</p>
+
+<p><img src="/assets/images/diff_bar.png" alt="Average Difficulty by Category" width="600" /></p>
+
+<p>Interestingly, the top few domains are considered to be in the middle of the road of the qualitative-quantiative scale. This classification seems reasonable to me: the top four fields – Biology, Psychology, Economics, and Health – are about the study of wrangling unmanageably complex systems into order by applying both quanitative and qualitative analyses. Though it seems unlikely to me that the quantitative-qualitative distinction is very helpful in determining why models find these questions more difficult. It seems more likely to me that questions from this field are more often steeped in the convention than ground-truth.</p>
+
+<p>Depending on how dependable the qualitative-quantiative scale is, this might suggest that the one-dimensional “ability” being tested in MMLU is a kind of general integrated competence that arises when the models can combine both quantitative and qualitative skills. This might also suggest that, conditional on MMLU only being one-dimensional, that the benchmark could get the most bang for its buck by targeting questions in these fields.</p>
+
+<p>Next, let’s look at the discrimination dimension:</p>
+
+<p><img src="/assets/images/disc_bar.png" alt="Average Discrimination by Category" width="600" /></p>
+
+<p>Unlike the difficulty parameter, the trends in discrimination are a less clear. It seems there’s a light correlation between more discriminating quesitons being more quantitative. The fact that the top four fields in terms of difficulty – Biology, Psychology, Economics, and Health – are scattered across the discrimination scale suggests these fields might indeed have more guess variation of ambiguous interpretation.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>If MMLU is truly one-dimensional, the categorization of question across domains has less value: we’re paying the cost of multi-domain coverage without actually buying a more structured picture of capability.</p>
+
+<p>To be clear, I’m not trying to say that multi-domain benchmarks are useless, but rather that we should be more explicit about these categorizations will do for our understanding. If the goal is to “track a single general competence over time,” then benchmark construction should perhaps optimize for items with high information, even if that means concentrating in the domains that empirically provide the most signal. If the goal instead is to “measure multiple capabilities,” then we shouldn’t expect domain labels to magically induce dimensionality, and instead design for them (i.e., by construct item families that isolate distinct skills and validating dimensionality with model-based checks on preliminary samples) and report by those sub-scores instead of collapsing into one general ability line.</p>
+
+<p>Benchmark breadth should be informed by hypotheses about the structure of model intelligence, not an aesthetic choice.</p>
+
+<p>---</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>I did this using ChatGPT 5.1 Thinking. Given that these domains are relatively broad and can easily capture a large range of questions, this categorization is very loose and only used for visualization purposes. That being said, they do correspond reasonably with my intuitions on which field are more technical vs. qualitative. To be more rigorous about this, I could have tried to categorize each individual question instead. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+    </main><footer>
+  <p style="text-align: right;">Last updated: December 2025</p>
+</footer>
+</div>
+  </body>
+</html>
