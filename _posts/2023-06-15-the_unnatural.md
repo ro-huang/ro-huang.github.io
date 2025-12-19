@@ -6,6 +6,10 @@ date: 2023-06-15
 category: running
 ---
 
+# The Unnatural
+
+*Along the Chesapeake and Ohio Canal*
+
 In the corner of my eye, I saw a man running on the water. Despite my church-laden upbringing, I didn’t think about the biblical connotations of my vision. Instead, I thought about the grace of Olympic runners, their glide from one circle of earth to the next. How simple it would be for them to transition from terra firma to algal waters! Turning my head, I saw a crane — a blue streak of paint — falling in pace with my very un-Olympian jog before swooping ahead to settle on a log. There, it looked critically — studiously, even — into the water, seeking its next meal. 
 
 These jolts of nature have become commonplace on my runs as I seek out long stretches of road unimpeded by crosswalks and stop signs. In New Jersey, I was kept company by horses that speckled the small farm fields. Sometimes, one would stare at me, and I’d think back to the one time I fed a horse an apple, surprised and disgusted at the bulky flesh of its lips. Another day, after a run where I neared pure euphoric pain, I ambled back to my car while picking purple and yellow flowers across my path. By the end of my migration, I finished a call with a close friend driving to work (the conversation dominated by my running-related ramblings) and gathered a voluminous bouquet of wildflowers. At home, I placed them on my desk, where they soon lost their petals and wilted, their browning forms mocked by the prim store-bought rose that I bought for Mother’s Day.

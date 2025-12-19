@@ -6,6 +6,8 @@ date: 2023-07-12
 category: creative
 ---
 
+# The Politician
+
 I sit outside the office of Wendell Primus. He’s a white man. He struggles with technology: so far, the research assistants have had to help him look at his email attachments, open a web browser, and unmute himself on Zoom. Oftentimes, he puffs out his cheeks when he walks around. He’s a kind man, but even though I say good morning and good evening to him everyday, I don’t think he knows my name.
 
 He’s also the lead health policy advisor to Speaker Nancy Pelosi. He headed the effort to create and pass the Affordable Care Act.

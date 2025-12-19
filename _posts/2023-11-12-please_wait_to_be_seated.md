@@ -6,6 +6,8 @@ date: 2023-11-12
 category: creative
 ---
 
+# Please Wait To Be Seated
+
 “Happy anniversary!” The hostess exclaimed, glancing up from her tablet.
 
 I glanced at Kaivu, and our eyes sifted through the same emotions: confusion, understanding, amusement.

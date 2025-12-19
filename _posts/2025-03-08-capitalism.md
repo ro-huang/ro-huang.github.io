@@ -6,6 +6,8 @@ date: 2025-03-08
 category: takes
 ---
 
+# Capitalism Serves The Parts of Us We Dislike
+
 There's a particular strain of criticism against capitalism that I find interesting. It claims that capitalism erodes human well-being through producing harmful products. Big Tech gave us ADHD. Big Clothing gave us fast fashion. Big Cereal gave us diabetes. It's true the people seek out these products, but these critics argue such desire is artificial: it's created by the producer through glittery Leprechaun ads; its enforced through sugar molecules refined beyond what we would've experience in the ancestral environment; its facilitated by capitalism's lust for profits. 
 
 But it seems to me that saying the desire is artificial misses the point. It doesn't matter where it comes from -- we act on it all the same. The reason we want to disavow this desire is because it serves a part of us we dislike. And it fights against those desires that serve part of us we like, those desires to become kinder and smarter and fitter; the desires to become whole in some ambiguous "good life" kind of way. 

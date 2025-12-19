@@ -6,6 +6,8 @@ date: 2025-03-22
 category: creative
 ---
 
+# Arms Outstretched
+
 The air is visible. It floats through the windows, slow dancing. The piano, keys browned, sags under the weight of the falling dust. The chapel has been eternally dirty despite Qing’s — our janitor’s — constant toil. There have been times when it’s less noticeable, but I can’t help seeing it today.
 
 A podium stands in front, a hard wooden delivery bed of truth. In my childhood, Ms. Yang rested on it. For all five years I knew her, she sported the same immaculately circular bowl cut, a nod to some Taiwanese cosmetic style I neither knew nor understood. She was so thin her skin discovered her bones. I can’t remember how she sounded, but I do remember her woodpecker cadence, the tink tink tink of her sermons. She despised Halloween, thought it a celebration of the devil, so instead of candy she bestowed fortune-cookie slips of Bible verses. I imagined the children’s horror, disappointment seeping through their costumes. They’d learn to skip her house.

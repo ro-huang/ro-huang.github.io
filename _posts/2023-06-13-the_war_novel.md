@@ -6,6 +6,10 @@ date: 2023-06-13
 category: running
 ---
 
+# The War Novel
+
+*Along the Chesapeake and Ohio Canal*
+
 There's something so … unprincipled about World War One, I realize on my run.
 
 I’m listening to The Fall of Giants by Ken Follett, a sprawling novel that tracks members of early 20th century nations steeped in lust and anguish and war. Before this novel, all the books backgrounded by war that I’ve read revolve around WWII and the Holocaust. And outside of being the first novel I’ve read about World War One, The Fall of Giants is also my first “war novel”. The books I’ve read about WWII — Slaughterhouse 5 and Maus and The Book Thief, among others — are not war novels, as much as The Old Man and the Sea is not a fishing tutorial. From them, I’ve learned of evil and trauma and death. I’ve learned nothing of war except its capability to create evil and trauma and death. But Follett’s novel is thick with war. It seethes with Obstinate Generals and Capricious Politicians and Hardened Soldiers and Forlorn Wives. With paragraphs scouting out war tactics and political power struggles, the book tries to chip at my eternal incomprehension of this dirty little game we play.
