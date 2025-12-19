@@ -8,7 +8,7 @@ category: running
 
 # The War Novel
 
-*Along the Chesapeake and Ohio Canal*
+*June 13, 2023. Along the Chesapeake and Ohio Canal*
 
 There's something so … unprincipled about World War One, I realize on my run.
 

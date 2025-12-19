@@ -8,6 +8,8 @@ category: takes
 
 # Failing to Fail
 
+*March 22, 2025*
+
 After college, people experience a large drop off in how much they learn. And for a lot of people, this is a great loss. The reasons to learn are varied: some want to pick up a hobby and get good at it, others want to be better at their job, and yet others want to simply grow and develop as people. But despite the near-infinite store of knowledge at their fingertips, they struggle to move past the first search page. Why?
 
 I contend there are two parts to learning: background and ability to navigate metacognitive burden. When people talk about their inability to learn more after college, they often ascribe the challenge to some lacking prerequisite knowledge. They open a physics textbook a few months after graduating and realize that they’ve forgotten how to calculate a derivative; they can’t hold a bar chord on the guitar and are forever doomed to play Riptide by Vance Joy. But this doesn’t seem to be the core of the problem. While knowing more things or having more skills before starting a new project is helpful, being able to play the B minor chord is not the biggest barrier to becoming Jimi Hendrix. 

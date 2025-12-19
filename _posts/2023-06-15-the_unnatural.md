@@ -8,7 +8,7 @@ category: running
 
 # The Unnatural
 
-*Along the Chesapeake and Ohio Canal*
+*June 15, 2023. Along the Chesapeake and Ohio Canal*
 
 In the corner of my eye, I saw a man running on the water. Despite my church-laden upbringing, I didn’t think about the biblical connotations of my vision. Instead, I thought about the grace of Olympic runners, their glide from one circle of earth to the next. How simple it would be for them to transition from terra firma to algal waters! Turning my head, I saw a crane — a blue streak of paint — falling in pace with my very un-Olympian jog before swooping ahead to settle on a log. There, it looked critically — studiously, even — into the water, seeking its next meal. 
 
