@@ -11,4 +11,5 @@ plugins:
 
 header_pages:
   - index.md
+  - research.md
   - writing.md
