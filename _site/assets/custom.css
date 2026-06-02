@@ -63,3 +63,27 @@ table th {
 table tr:nth-child(even) {
   background-color: #faf3e8;
 }
+
+/* Details/summary elements for collapsible content */
+details {
+  margin: 0.5em 0;
+}
+
+details summary {
+  cursor: pointer;
+  color: #6d5147;
+  font-size: 0.9em;
+}
+
+details summary:hover {
+  color: #3e2723;
+}
+
+details[open] summary {
+  margin-bottom: 0.5em;
+}
+
+details ul {
+  margin: 0.25em 0;
+  padding-left: 1.5em;
+}
