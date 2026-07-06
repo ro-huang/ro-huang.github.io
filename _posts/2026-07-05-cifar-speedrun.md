@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning about progress towards automated AI R&D from CIFAR speedruns"
-author: "Rowan Huang"
+author: "Rowan Huang & Kaivalya Hariharan"
 date: 2026-07-05
 category: technical
 ---

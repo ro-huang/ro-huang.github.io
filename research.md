@@ -147,7 +147,7 @@ Even when AI models perform well on safety evaluations, I'm concerned that this 
   </div>
   <div class="publications-list">
     <ul>
-      <li><strong>Huang, R. W.</strong> (2026). "Learning about progress towards automated AI R&D from CIFAR speedruns." <em>Blog post</em>. <a href="/technical/2026/07/05/cifar-speedrun.html">link</a></li>
+      <li><strong>Huang, R. W.</strong> & Hariharan, K. (2026). "Learning about progress towards automated AI R&D from CIFAR speedruns." <em>Blog post</em>. <a href="/technical/2026/07/05/cifar-speedrun.html">link</a></li>
     </ul>
   </div>
 </div>
