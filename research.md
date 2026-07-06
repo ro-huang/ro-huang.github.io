@@ -93,6 +93,7 @@ permalink: /research
 
 My research interests are in AI behavioral eval tooling, measurement epistemology, and the economics of innovation. Below, I outline some ongoing projects as well as some of the work I've done in the past.
 
+<!--
 <div class="theme-box">
 
 <h3>Evaluation Tooling</h3>
@@ -124,6 +125,7 @@ Even when AI models perform well on safety evaluations, I'm concerned that this 
 </div>
 
 </div>
+-->
 
 <div class="theme-box">
 
@@ -132,6 +134,22 @@ Even when AI models perform well on safety evaluations, I'm concerned that this 
 <div class="section-narrative">
 <p>The quality of analysis -- and by extension the findings it produces -- depends on whether the right things are being measured, and whether they're being measured well. Recently, I've been thinking about this in the context of AI agent benchmarks, in which I feel there's a need for more rigorous though about metric quality. In the past, I've thought about this in the context of health policy.</p>
 <p>Though the settings are very different, my health policy work has informed how I think about AI benchmarks today, because both fields grapple with measuring inherently messy, multidimensional phenomena. In health policy, there's a strong tradition of recognizing that many metrics are just proxies for what we actually care about, and that optimizing for a proxy (like a lab value) without treating it as such can lead you away from the real goal (like patient well-being). I feel that AI benchmarks would benefit from that same discipline, since the field too often treats proxy scores as end goals without interrogating whether they truly capture the capability or behavior we're trying to measure.</p>
+</div>
+
+<div class="project-card">
+  <div class="project-header">
+    <span class="project-title">Learning about progress towards automated AI R&D from CIFAR speedruns</span>
+    <span class="project-badge">Blog Post</span>
+    <span class="project-tags">[AI Safety]</span>
+  </div>
+  <div class="project-description">
+    In this blog post, I give some preliminary evidence on current AI agent research capabilities by seeing whether they're able to improve a given solution to the CIFAR speedrun. I find that both Opus 4.8 and GPT 5.5 are able to make improvements, but many are marginal and they were unable to improve upon the actual SOTA solution.
+  </div>
+  <div class="publications-list">
+    <ul>
+      <li><strong>Huang, R. W.</strong> (2026). "Learning about progress towards automated AI R&D from CIFAR speedruns." <em>Blog post</em>. <a href="/technical/2026/07/05/cifar-speedrun.html">link</a></li>
+    </ul>
+  </div>
 </div>
 
 <div class="project-card">
