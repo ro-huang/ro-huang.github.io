@@ -8,7 +8,7 @@ I'm Rowan Huang. 50% of my selfhood is well captured by the following three iden
 
 I graduated Duke in 2024 as a statistics major and worked as a economics predoctoral research fellow with [Amy Finkelstein](https://en.wikipedia.org/wiki/Amy_Finkelstein) at MIT. During this time, I've thought lots about health economics and policy, innovation, and what it means to be empirically rigorous in the social sciences. 
 
-Starting January 2026, I've joined [Fulcrum Research](https://fulcrum.inc/) to work on evaluating AI agent behavior in research and engineering settings.
+Starting October 2026, I’ve joined [METR](https://metr.org/) to work on AI capability evals with the time horizons team.
 
 Email: rowan(dot)w(dot)huang(at)gmail(dot)com
 
